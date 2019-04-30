@@ -1,0 +1,18 @@
+>run: node app.js
+>run with command: node app.js list
+>run with command + args: node app.js add --title=1234 --body=body1234
+>run with command: node app.js ramat gan    (get the weather in ramat gan)
+>debug: 
+1) node inspect app.js list
+2) go to chrome: chrome://inspect/#devices
+3) select target => click "inspect"
+4) chrome devtools should be opened in debug mode on the first row on the js file.
+
+>weather darksky key: dbd7aff54b57b428ea6a0e604a51ca11
+>mapbox access token: pk.eyJ1IjoiZHVkdWIxMjMiLCJhIjoiY2p0aDRycTM3MHIxdTQ1bGhpYnpscGY0aCJ9.z1c2YLu024LrXts1l1pfuA
+
+
+Express Example:
+>nodemon src/app.js     (this will runs the server and watch for changes)
+> open chrome on http://localhost:3000/weather
+
